@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.github.sfg-beer-works</groupId>
 		<artifactId>sfg-beer-works-bom</artifactId>
-		<version>1.0.21</version>
+		<version>1.0.26</version>
 	</parent>
 
 	<groupId>guru.sfg.brewery</groupId>
@@ -13,6 +13,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mssc-inventory-failover</name>
 	<description>Demo project for Spring Boot</description>
+
+	<properties>
+		<docker.image.prefix>sfgbeerkcm3394</docker.image.prefix>
+	</properties>
 
 	<dependencies>
 		<dependency>
